@@ -1,0 +1,7 @@
+{
+  "name": "aldo2015",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "~3.2.0"
+  }
+}

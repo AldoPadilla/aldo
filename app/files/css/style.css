@@ -11,7 +11,7 @@
 		! ! !    R E A D   T H I S    ! ! ! 
 		-----------------
 		
-		It's recomended to use/create a custom css file (ore place them at the end of this file) 
+		It's recomended to use/create a custom css file (or place them at the end of this file) 
 		to do you customizations in order to easily update the main css files without loosing your changes
 		
 		
@@ -1803,7 +1803,7 @@ a.medium-button { font-size: 13px; padding: 10px 30px; }
 a.big-button { font-size: 15px;	padding: 15px 40px;	}
 
 a.sr-button2 { color: #ffffff; border: 1px solid rgba(255,255,255,.4); }
-a.sr-button2:after { background: #ffffff; }
+a.sr-button2:after { background: #FFC126; }
 a.sr-button2:hover { border-color: #ffffff; color: #0d0d0d; }
 
 

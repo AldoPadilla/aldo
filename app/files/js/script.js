@@ -278,11 +278,11 @@ jQuery(window).load(function($) {
 	------------------------------------------------*/
 	if(jQuery().revolution) {
 		jQuery('.rev-slider').revolution({
-			delay:10000,
+			delay:4250,
 			startheight: 500,
 			startwidth: 1200,
 			hideTimerBar: "on",
-			onHoverStop:"on",
+			onHoverStop:"off",
 			navigationType:"bullet",
 			hideThumbs:0,					// Bullets always visible
 			navigationHAlign:"right",

@@ -9,7 +9,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>404 | Pond | Creative Page Template</title>
+<title>404 | ALDO // EXPERIENCE DESIGNER</title>
 <!-- DEFAULT META TAGS -->
 
 <!-- FONTS -->
@@ -34,9 +34,9 @@
 
 </head>
 
-<body class="bordered"> 
+<body class=""> 
 
-<!-- BORDERS (Don't want any border? Delete the class bordered on the body and this part) -->
+<!-- BORDERS (Don't want any border? Delete the class 'bordered' on the body and this part) 
 <div id="bodyborder-left"></div>
 <div id="bodyborder-right"></div>
 <div id="bodyborder-top"></div>
@@ -46,7 +46,7 @@
 <!-- PAGELOADER -->
 <div id="page-loader" class="text-light">
 	<div class="page-loader-inner">
-    	<div class="loader-logo-name"><img src="files/uploads/pond-logo-light.png" alt="Logo"/></div>
+    	<div class="loader-logo-name"><img src="files/uploads/aldo-logo-light.png" alt="Logo"/></div>
 		<h6 class="alttitle title-minimal">Loading</h6>
 	</div>
 </div>
@@ -56,26 +56,35 @@
 <div id="page-content">
 
 	<!-- HEADER -->
-	<header id="header">        
+	<header id="header" class="overlay-bottom">        
 		<div class="header-inner clearfix">
 			
            <!-- DEFAULT HEADER CONTENT -->
 		   	<div class="default-header-content">                 
 				<div id="logo" class="left-float">
-					<a id="default-logo" class="logotype" href="index.html"><img src="files/uploads/pond-logo-light.png" alt="Logo"></a>
-					<a id="fixed-logo" class="logotype" href="index.html"><img src="files/uploads/pond-logo.png" alt="Logo"></a>
+					<a id="default-logo" class="logotype" href="index.html"><img src="files/uploads/aldo-logo-light.png" alt="Logo"></a>
+					<a id="fixed-logo" class="logotype" href="index.html"><img src="files/uploads/aldo-logo.png" alt="Logo"></a>
 				</div>    
 				
 				<div class="menu right-float clearfix">
 					<a href="#" class="open-nav"><span></span></a>
 					<nav id="main-nav" class="text-light">
-						<div class="nav-logo"><img src="files/uploads/pond-logo-light.png" alt="Logo"></div>
+						<div class="nav-logo"><a href="index.html" class="logotype"><img src="files/uploads/aldo-logo-light.png" alt="Logo"></a></div>
 						<div class="nav-inner">
 						<ul>
-						<li><a href="index.html" class="scroll-to" data-bigletter="H">Home</a></li>
+						<li class="current-menu-item"><a href="#work" class="scroll-to" data-bigletter="W">Work</a>
+								<ul class="sub-menu">
+									<li><a href="aia.html">AIA</a></li>    
+									<li><a href="leap.html">LEAP</a></li>    
+									<li><a href="glucovation.html">Glucovation</a></li>
+									<li><a href="mountainhardwear.html">Mountain Hardwear</a></li>
+									<li><a href="vaforall.html">VA For All Lovers</a></li>
+									<li><a href="fiveguys.html">Five Guys</a></li>
+									<li><a href="goodyear.html">Goodyear</a></li>
+								</ul>
+						</li>
 						<li><a href="index.html#about" class="scroll-to" data-bigletter="A">About</a></li>
-						<li><a href="index.html#services" class="scroll-to" data-bigletter="S">Service</a></li>
-						<li><a href="index.html#work" class="scroll-to" data-bigletter="W">Work</a></li>
+						<!--<li><a href="#services" class="scroll-to" data-bigletter="S">Service</a></li>
 						<li><a href="blog.html" data-bigletter="B">Blog</a></li>
 						<li><a href="elements.html" data-bigletter="F">Features</a>
 								<ul class="sub-menu">
@@ -83,18 +92,17 @@
 									<li><a href="portfolio-layout.html">Portfolio Layout</a></li>    
 									<li><a href="split-section.html">Split sections</a></li>
 								</ul>
-							</li>
+							</li> -->
+						<li><a href="resume.html" class="scroll-to" data-bigletter="E">Experience</a></li>
 						<li><a href="index.html#contact" class="scroll-to" data-bigletter="C">Contact</a></li>
 						</ul>
 						</div>
 						<div class="nav-social">
-							<ul class="socialmedia-widget social-share">
-								<li class="facebook"><a href="#"></a></li>
-								<li class="twitter"><a href="#"></a></li>
-								<li class="linkedin"><a href="#"></a></li>
-								<li class="dribbble"><a href="#"></a></li>
-								<li class="behance"><a href="#"></a></li>
-								<li class="instagram"><a href="#"></a></li>
+							<ul class="socialmedia-widget">
+								<li class="linkedin"><a href="https://www.linkedin.com/in/aldopadilla" target="_blank"></a></li>
+								<li class="twitter"><a href="https://twitter.com/aldopadilla123" target="_blank"></a></li>
+								<li class="instagram"><a href="http://instagram.com/aldopadilla" target="_blank"></a></li>
+								<li class="tumblr"><a href="http://allthoseadventures.tumblr.com" target="_blank"></a></li>
 							</ul>
 						</div>
 						<div class="nav-bg"></div>
@@ -109,11 +117,54 @@
 	
 	
 	<!-- PAGE TITLE -->
-	<section id="page-title" class="full-height" style="background:url(files/uploads/1690x1100.jpg) center center;background-size:cover;">
+
+            <script language="JavaScript">
+<!--
+function random_imglink(){
+var myimages=new Array()
+//image array
+myimages[1]="files/uploads/wrestling-fail.gif"
+myimages[2]="files/uploads/pedestrian.gif"
+myimages[3]="files/uploads/goalie-fail.gif"
+myimages[4]="files/uploads/discus-fail.gif"
+myimages[5]="files/uploads/cat-fail.gif"
+myimages[6]="files/uploads/goalie-fail.gif"
+myimages[7]="files/uploads/turtle.gif"
+myimages[8]="files/uploads/baby-fail.gif"
+myimages[9]="files/uploads/dog-fail.gif"
+myimages[10]="files/uploads/red-panda.gif"
+myimages[11]="files/uploads/skate-fail.gif"
+myimages[12]="files/uploads/trust.gif"
+myimages[13]="files/uploads/dog2.gif"
+myimages[14]="files/uploads/seagull.gif"
+myimages[15]="files/uploads/ceiling.gif"
+myimages[16]="files/uploads/highfive.gif"
+myimages[17]="files/uploads/escalator.gif"
+myimages[18]="files/uploads/tongue.gif"
+myimages[19]="files/uploads/shuttle.gif"
+myimages[20]="files/uploads/skatefall.gif"
+myimages[21]="files/uploads/carwash.gif"
+myimages[22]="files/uploads/baseball.gif"
+myimages[23]="files/uploads/punch.gif"
+myimages[24]="files/uploads/baseball2.gif"
+myimages[25]="files/uploads/pyramid.gif"
+myimages[26]="files/uploads/uneven.gif"
+
+var ry=Math.floor(Math.random()*myimages.length)
+if (ry==0)
+ry=1
+document.write('<section id="page-title" class="full-height" style="background:url('+myimages[ry]+') center center;background-size:cover;">')
+}
+random_imglink()
+//-->
+</script>
+
+	
 		<div class="section-inner align-center text-light">
 			<h1 data-bigletter="404"><strong>404</strong></h1> 
 			<div class="separator"><span></span></div>
-			<h5 class="alttitle title-minimal">The Page you're looking for has not been found</h5>
+			<h5 class="alttitle title-minimal">This es no bueno</h5></br>
+			<a href="404.html" class="sr-button sr-button2" target="_self" >MORE GIF?</a>
 		</div>
 	</section>
 	<!-- PAGE TITLE -->     

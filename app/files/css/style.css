@@ -533,6 +533,7 @@ header #logo {
     -o-transition: all 200ms ease;
     -ms-transition: all 200ms ease;
 	position: relative;
+	left: -35px;
 	}
 	header.sticky-header #logo { height: 30px; } 
 		
@@ -548,7 +549,7 @@ header #logo {
 #fixed-logo { opacity: 0; filter: alpha(opacity=0); -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; }
 .sticky-header #fixed-logo { opacity: 1; filter: alpha(opacity=100); -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; }
 
-#default-logo { position: absolute; top: 0; left: 0; }
+#default-logo { position: absolute; top: 9px; left: 0px; }
 .sticky-header #default-logo { display: none; }	
 
 header .fixed-header-content { display: none; }
@@ -748,7 +749,7 @@ nav#main-nav {
 	}
 	
 nav#main-nav .nav-bg {
-	background: #0d0d0d;
+	background: #fd0e0a;
 	position: absolute;
 	top: 0px;
 	right: 0px;
@@ -900,6 +901,7 @@ nav#main-nav .nav-inner ul li ul li a {
 	background: transparent;
 	width: 20px;
 	height: 20px;
+	right: -20px;
 	position: relative;
 	transition: all 600ms ease;
 	-webkit-transition: all 600ms ease;
@@ -1777,6 +1779,7 @@ a.sr-button {
 	border: 1px solid rgba(0,0,0,.2);
 	padding: 10px 30px;
 	position: relative;
+	z-index: 100001;
 	}
 	a.sr-button:after {
 	content:"";	
@@ -1785,7 +1788,7 @@ a.sr-button {
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	background: #0d0d0d;
+	background: #fd0e0b;
 	z-index: -1;
 	-webkit-transition: all 200ms ease;
     -moz-transition: all 200ms ease;
@@ -1794,7 +1797,7 @@ a.sr-button {
     transition: all 200ms ease;
 	}
 	
-a.sr-button:hover { color: #ffffff; border-color: #0d0d0d; }
+a.sr-button:hover { color: #ffffff;/*border-color: #0d0d0d; */}
 a.sr-button:hover:after { height: 100%; }
 	
 a.mini-button { font-size: 10px; padding: 5px 15px; }
@@ -1803,8 +1806,8 @@ a.medium-button { font-size: 13px; padding: 10px 30px; }
 a.big-button { font-size: 15px;	padding: 15px 40px;	}
 
 a.sr-button2 { color: #ffffff; border: 1px solid rgba(255,255,255,.4); }
-a.sr-button2:after { background: #FFC126; }
-a.sr-button2:hover { border-color: #ffffff; color: #0d0d0d; }
+a.sr-button2:after { background: #fd0e0b; }
+a.sr-button2:hover { border-color: #ffffff;/*color: #0d0d0d;*/}
 
 
 
@@ -2537,3 +2540,45 @@ a.sr-button2:hover { border-color: #ffffff; color: #0d0d0d; }
 ------------------------------------------------*/
 
 /*YOUR CUSTOM CSS*/
+
+
+
+.arrow {
+	position: absolute;
+	display: block;
+	width: 27px;
+	height: 15px;
+	padding: 10px;
+/*	background-color: #f00;*/
+	background-image: url( '/files/uploads/arrow.png' );
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:27px auto;
+	margin: -10px;
+	cursor: pointer;
+	z-index: 23;
+}
+
+.arrow:hover {
+	opacity: 0.5;
+}
+
+.arrow.disabled, .arrow.disabled:hover {
+	opacity: 0.2;
+	cursor: default;
+}
+.no-touch .arrow.disabled:hover {
+	opacity: 0.2;
+	cursor: default;
+}
+.arrow.down {
+	display: none;
+	left: 50%;
+	bottom: 80px;
+	-webkit-transform: translateX(-16px);
+	-ms-transform: translateX(-23px);
+	-moz-transform: translateX(-23px);
+	-o-transform: translateX(-23px);
+	transform: translateX(-16px);
+}
+

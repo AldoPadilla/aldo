@@ -534,3 +534,50 @@ function splitSection() {
 	}
 	
 }
+
+var textarray = [
+ "Skateboarding",
+ "Snowbarding",
+ "Bikes",
+ "Photography",
+ "Lettering",
+ "Film Photography",
+ "Classic Cars",
+ "Manual Cameras",
+ "Trail Running",
+ "Snow Camping",
+ "Street Art",
+ "Container Homes",
+ "Post Modern Architecture",
+ "Working On Cars",
+ "Post Modern Architecture",
+ "Fútbol",
+ "Español", 
+ "Traveling", 
+ "Sweden", 
+ "Road Trips", 
+ "Exploring", 
+ "Music", 
+ "Los Angeles", 
+ "Elotes", 
+ "My Siblings", 
+ "My Mom", 
+ "My Bfffs", 
+ "Fireworks", 
+ "RHCP", 
+ "The Doors", 
+ "Vampire Weekend", 
+ "Kurt Vonegut Jr.", 
+ "Pedro Almodóvar", 
+ "Kathleen Hanna", 
+ "Horses", 
+ "SCUBA"   
+];
+
+function RndText() {
+  var rannum= Math.floor(Math.random()*textarray.length);
+  document.getElementById('MyFaves').innerHTML=textarray[rannum];
+}
+onload = function() { RndText(); }
+var inter = setInterval(function() { RndText(); }, 600);
+

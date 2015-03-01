@@ -148,7 +148,7 @@
   	width: 4px;
   	height: 4px;
   	display: block;
-	background: #ffffff;
+	background: #daa520;
 	border-radius: 12px;
 	-moz-border-radius:12px; 
 	-khtml-border-radius:12px; 
@@ -159,6 +159,6 @@
 	}
 	.owlnavdark .owl-controls .owl-page span:before, .owlcarousel .owl-controls .owl-page span:before { background: #0d0d0d; }
 
-.owl-theme .owl-controls .owl-page.active span, .text-light .owl-controls .owl-page.active span { border: 1px solid #ffffff; }
-	.owlnavdark .owl-controls .owl-page.active span, .owlcarousel .owl-controls .owl-page.active span { border: 1px solid #0d0d0d; }
+.owl-theme .owl-controls .owl-page.active span, .text-light .owl-controls .owl-page.active span { border: 1px solid #daa520; }
+	.owlnavdark .owl-controls .owl-page.active span, .owlcarousel .owl-controls .owl-page.active span { border: 1px solid #daa520; }
 .owl-theme .owl-controls .owl-page.active span:before { display: none; }

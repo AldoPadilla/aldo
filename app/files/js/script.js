@@ -304,12 +304,12 @@ jQuery(window).load(function($) {
 	
 		/* for all owlslider classes (single item) */
 		jQuery(".owlslider").owlCarousel({
-			autoPlay : false,
-			stopOnHover : true,
+			autoPlay : true,
+			stopOnHover : false,
 			navigation: false,
 			navigationText : false,
-			slideSpeed : 800,			// speed for mouseslide/touchslide
-			paginationSpeed : 800,	// speed for autoPlay/pagination bullets
+			slideSpeed : 900,			// speed for mouseslide/touchslide
+			paginationSpeed : 900,	// speed for autoPlay/pagination bullets
 			singleItem : true,
 			autoHeight : true
 		});
@@ -541,14 +541,12 @@ var textarray = [
  "Bikes",
  "Photography",
  "Lettering",
- "Film Photography",
  "Classic Cars",
- "Manual Cameras",
+ "Film Cameras",
  "Trail Running",
  "Snow Camping",
  "Street Art",
  "Container Homes",
- "Post Modern Architecture",
  "Working On Cars",
  "Post Modern Architecture",
  "Fútbol",
@@ -571,6 +569,9 @@ var textarray = [
  "Pedro Almodóvar", 
  "Kathleen Hanna", 
  "Horses", 
+ "Inventing", 
+ "Experimenting", 
+ "Street Art", 
  "SCUBA"   
 ];
 

@@ -133,7 +133,7 @@ h1 { font-size: 90px; line-height: 104px; }
 h2 { font-size: 70px; line-height: 82px; }
 h3 { font-size: 44px; line-height: 54px; }
 h4 { font-size: 28px; line-height: 38px; }
-h5 { font-size: 26px; line-height: 29px; color: slategrey !important; }
+h5 { font-size: 26px; line-height: 29px; color: grey !important; }
 h6 { font-size: 16px; line-height: 24px; }
 
 h1 b, h2 b, h3 b, h4 b, h5 b, h6 b, h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong { font-weight: 700; }
@@ -509,7 +509,7 @@ header {
     -o-transition: none;
     -ms-transition: none;
 	}
-	.non-overlay {	position: relative; top: inherit; left: inherit; background: #0d0d0d; width: 100%; }
+	.non-overlay {	position: relative; top: inherit; left: inherit; background: #fd0e0a; width: 100%; }
 	.sticky-header { position: fixed; top: -100px !important; left: 0; background: #ffffff; opacity: 0.85; margin-top: 100px; 
 	transition: margin 600ms ease;
 	-webkit-transition: margin 600ms ease;

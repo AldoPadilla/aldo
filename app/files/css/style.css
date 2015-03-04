@@ -1658,7 +1658,7 @@ section { }
 .split-wrapped-content, .split-full-content, .split-mini-content {
 	position: relative;
 	z-index: 1;
-	padding: 120px 0;
+	padding: 34px 0;
 	}
 	
 .split-full-content {
@@ -1669,7 +1669,7 @@ section { }
 .split-mini-content {
 	padding-left: 40px;
 	padding-right: 40px;
-	max-width: 400px;
+	max-width: 532px;
 	margin: 0 auto;
 	}
 	
@@ -2596,7 +2596,4 @@ color: #444;
 font-size: 37px;
 line-height: 45px;
 }
-
-
-
 

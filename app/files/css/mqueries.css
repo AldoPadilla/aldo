@@ -47,7 +47,7 @@ h6 { font-size: 15px; line-height: 22px; }
 .split-half .split-wrapped-content { width: 325px; }
 .split-onethird .split-wrapped-content  { width: 216px; }
 .split-twothird .split-wrapped-content { width: 432px; }
-.split-mini-content { max-width: 300px; }
+.split-mini-content { max-width: 370px; }
 
 .one-half  { width: 340px; }
 .one-third { width: 210px; }
@@ -87,7 +87,7 @@ blockquote { margin: 50px; }
 #page-title .section-inner { padding: 100px 0; }
 #blog-comments { margin-top: 100px; }
 #blog-leavecomment { margin-top: 100px; }
-.split-wrapped-content, .split-full-content, .split-mini-content { padding: 100px 0; }
+.split-wrapped-content, .split-full-content, .split-mini-content { padding: 18px 0; }
 .vertical-center { padding-top: 0; padding-bottom: 0; }
 .section-inner { padding-top: 100px; }
 .notoppadding .section-inner { padding-top: 0px; }

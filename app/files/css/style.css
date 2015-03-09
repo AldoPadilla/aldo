@@ -2575,10 +2575,20 @@ a.sr-button2:hover { border-color: #ffffff;/*color: #0d0d0d;*/}
 	opacity: 0.2;
 	cursor: default;
 }
+#arrow-first {
+	display: inline;
+}
+
 .arrow.down {
 	display: none;
 	left: 50%;
 	bottom: 80px;
+	padding-top: 38px;
+	font-family: serif;
+	font-style: italic;
+	color: #808081;
+	width: 38px;
+	font-size: 12pt;
 	-webkit-transform: translateX(-16px);
 	-ms-transform: translateX(-23px);
 	-moz-transform: translateX(-23px);

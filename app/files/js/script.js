@@ -571,6 +571,9 @@ var textarray = [
  "Horses", 
  "Inventing", 
  "Experimenting", 
+ "Courtney Barnett", 
+ "LCD Soundsystem", 
+ "GIFS", 
  "Street Art", 
  "SCUBA"   
 ];

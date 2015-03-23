@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for http://aldopadilla.com/</title>
+  <link>http://aldopadilla.com/</link>
+
+<item>
+     <link>http://aldopadilla.com/</link>
+     <title>ALDO // EXPERIENCE DESIGNER</title>
+     <description>Aldo Padilla is and Experience Designer. His Human Centered Design (HCD) work is brand and strategy centric from the concepting stage through impementation. His expertise is in prototyping for digital and physical spaces, but his experiences includes design, UX, UI, IXD, and photo communications.</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://aldopadilla.com/index.html</link>
+     <title>ALDO // EXPERIENCE DESIGNER</title>
+     <description>Aldo Padilla is and Experience Designer. His Human Centered Design (HCD) work is brand and strategy centric from the concepting stage through impementation. His expertise is in prototyping for digital and physical spaces, but his experiences includes design, UX, UI, IXD, and photo communications.</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://aldopadilla.com/resume.html</link>
+     <title>Resume | ALDO</title>
+     <description>The resume of Experience Designer Aldo Padilla.</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://aldopadilla.com/404.html</link>
+     <title>404 | ALDO // EXPERIENCE DESIGNER</title>
+     <description>404 | ALDO // EXPERIENCE DESIGNER</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://aldopadilla.com/aia.html</link>
+     <title>DraftHouse - AIA | ALDO</title>
+     <description>The American Institute of Architects sought to change the public perception of architects and architecture and also introduce an app that would help guide and excite emerging architects.</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://aldopadilla.com/glucovation.html</link>
+     <title>Vis - Glucovation | ALDO</title>
+     <description>VIS is the rebrand of Glucovation, a real-time blood glucose monitor.</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://aldopadilla.com/mountainhardwear.html</link>
+     <title>Mountain Hardwear | ALDO</title>
+     <description>Peak is a product brand-manifestation for Mountain Hardwear.</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://aldopadilla.com/fiveguys.html</link>
+     <title>Five Guys | ALDO</title>
+     <description>A visual order building app for the Five Guys Burger restaurant chain. Designed and prototyped by Aldo Padilla using Proto.io.</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://aldopadilla.com/bfgoodrich.html</link>
+     <title>BFGoodrich | ALDO</title>
+     <description>Rapid paper prototyping for BFGoodrich.</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  

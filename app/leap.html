@@ -24,8 +24,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta name="description" content="">
-<meta name="keywords" content=""/>
+<meta name="description" content="A digital magazine that explores alternative navigation and animations.">
+  <meta name="keywords" content="leap, space, visceral design, behavioral design, reflective design, design, digital magazine"/>
 <title>LEAP | ALDO</title>
 <!-- DEFAULT META TAGS -->
 
@@ -43,7 +43,17 @@
 <link rel='stylesheet' id='owlcarousel-style-css'  href='files/css/owl.carousel.css' type='text/css' media='all' />
 <link rel='stylesheet' id='owltransitions-style-css'  href='files/css/owl.transitions.css' type='text/css' media='all' />
 <!-- CSS -->
+<style media="screen" type="text/css">
+.mute-video {
+	display: none !important;
+}
 
+.imgoverlay:after {
+opacity: 0.0 !important;
+}
+
+
+</style>
 <!-- FAVICON -->
 <link rel="shortcut icon" href="files/uploads/favicon.png"/>
 <!-- FAVICON -->
@@ -66,7 +76,7 @@
 <!-- PAGELOADER -->
 <div id="page-loader" class="text-light">
 	<div class="page-loader-inner">
-    	<div class="loader-logo-name"><img src="files/uploads/aldo-logo-light.png" alt="Logo"/></div>
+    	<div class="loader-logo-name"><img src="files/uploads/aldo-logo-light.png" alt="Aldo Padilla Logo"/></div>
 		<h6 class="alttitle title-minimal"  style="color: white !important;">EXPERIENCE DESIGNER</h6>
 	</div>
 </div>
@@ -97,17 +107,17 @@
            <!-- DEFAULT HEADER CONTENT -->
 		   	<div class="default-header-content">                 
 				<div id="logo" class="left-float">
-					<a id="default-logo" class="logotype" href="index.html"><img src="files/uploads/aldo-logo-light.png" alt="Logo"></a>
-					<a id="fixed-logo" class="logotype" href="index.html"><img src="files/uploads/aldo-logo.png" alt="Logo"></a>
+					<a id="default-logo" class="logotype" href="index.html"><img src="files/uploads/aldo-logo-light.png" alt="Aldo Padilla Logo"></a>
+					<a id="fixed-logo" class="logotype" href="index.html"><img src="files/uploads/aldo-logo.png" alt="Aldo Padilla Logo"></a>
 				</div>    
 				
 				<div class="menu right-float clearfix">
 					<a href="#" class="open-nav"><span></span></a>
 						<nav id="main-nav" class="text-light">
-						<div class="nav-logo"><a href="index.html" class="logotype"><img src="files/uploads/aldo-logo-light.png" alt="Logo"></a></div>
+						<div class="nav-logo"><a href="index.html" class="logotype"><img src="files/uploads/aldo-logo-light.png" alt="Aldo Padilla Logo"></a></div>
 						<div class="nav-inner">
 						<ul>
-						<li class="current-menu-item"><a href="#work" class="scroll-to" data-bigletter="X">Work</a>
+						<li class="current-menu-item"><a href="/#work" class="scroll-to" data-bigletter="X">Work</a>
 								<ul class=sub-menu>
 									<li><a href="aia.html">AIA</a></li>    
 									<li><a href="leap.html">LEAP</a></li>    
@@ -120,7 +130,7 @@
 									<li><a href="petsmart.html">Petsmart</a></li>
 								</ul>
 						</li>
-						<li><a href="#about" class="scroll-to" data-bigletter="X">About</a></li>
+						<li><a href="/#about" class="scroll-to" data-bigletter="X">About</a></li>
 						
 						<li><a href="resume.html" class="scroll-to" data-bigletter="X">Experience</a>
 								<ul class=sub-menu>
@@ -128,7 +138,7 @@
 								<li><a href=https://dl.dropboxusercontent.com/u/23136887/Aldo-Padilla_Resume2015.pdf>Download Res</a></li>
 								</ul>
 								</li>
-						<li><a href="#contact" class="scroll-to" data-bigletter="X">Contact</a></li>
+						<li><a href="/#contact" class="scroll-to" data-bigletter="X">Contact</a></li>
 						<li><a href="404.html" class="scroll-to" data-bigletter="!">404</a></li>
 						</ul>
 						</div>
@@ -151,11 +161,26 @@
 	
 
 	<!-- PAGE TITLE -->
-	<section id="page-title" class="full-height parallax-section" data-parallax-image="files/uploads/1690x1100-light.jpg">
-		<div class="section-inner vTop">
-			<h4 class="portfolio-name title-minimal"><strong>LEAP</strong></h4> 
-			<div class="separator-small"><span></span></div>
-			<h6 class="alttitle title-minimal">DIGITAL MAG | UX/UI + Concept</h6>
+	<section id="home" class="notoppadding text-light videobg-section"
+					   data-videofile="files/uploads/leaplandinglg" 
+					   data-videowidth="1280"
+					   data-videoheight="720"
+					   data-videoposter="files/uploads/vis.gif"
+					   data-videoparallax="true"
+					   data-videooverlaycolor="#000000"
+					   data-videooverlayopacity="0.0"
+						data-sound="false">
+		<a id="arrow-first" class="arrow down scroll-to" href="#portfolio-single" style="">Scroll</a>						
+		<div class="section-inner vTop rev-slider-container" style="padding-top:10px;padding-left:10px;">
+			<h4 class="portfolio-name title-minimal" style="color: #fff;
+text-shadow: 0px 2px 3px #555;"><strong>LEAP</strong></h4> 
+			<div class="separator-small"><span style="background:#808080;"></span></div>
+			<h6 class="alttitle title-minimal" style="color:#808080 !important;">UX/UI + Design</h6>
+
+			<div class="rev-slider" >
+				<ul>
+				</ul>
+
 		</div>
 	</section>
 	<!-- PAGE TITLE -->
@@ -163,132 +188,305 @@
 	
 	<!-- PAGEBODY -->
 	<div class="page-body">
-	
-	 	<!-- PORTFOLIO SINGLE SECTION -->
+
+
 		<section id="portfolio-single">
-			<div class="section-inner wrapper">
-			
-				<div class="column-section clearfix">
-					<div class="column one-half">
+			<div class="section-inner wrapper-small">
+					<div class="column one-full align-center">
 						<h6 class="title-minimal">The Project</h6>
-						<p>Project details will be in here soon. Placeholder text: Thundercats craft beer Tumblr single-origin coffee retro cronut flannel. YOLO trust fund selfies hoodie try-hard. Single-origin coffee Williamsburg tattooed fixie try-hard readymade mustache cold-pressed freegan. Umami single-origin coffee before they sold out post-ironic Godard kitsch meggings iPhone brunch.  
+						<p>Create a digital magazine that utilizes alternative navigation patterns.  
 						</p>
 					</div>
-					<div class="column one-half last-col">
-						<h6 class="title-minimal">The Solution</h6>
-						<p>Project details will be in here soon. Placeholder text: Umami single-origin coffee before they sold out post-ironic Godard kitsch meggings iPhone, brunch flexitarian pug lomo bespoke blog selvage. Paleo farm-to-table seitan gluten-free, Austin synth fashion axe tofu gentrify.  
-						</p>
-					</div>
-				</div>
+
+				<div class="spacer spacer-big"></div>
 			</div>
 		</section>
 
-		<div class="spacer spacer-big"></div>
+	 	<!-- PORTFOLIO SINGLE SECTION -->
+		<section id="portfolio-single">
 
-				<!-- IMAGE SLIDER -->
-				<div class="wrapper">
-					<div class="owlslider">
-						<div class="owl-item"><img src="files/uploads/1690x1100.jpg" alt="SEO IMAGE NAME"></div>
-						<div class="owl-item"><img src="files/uploads/aiaback6.jpg" alt="SEO IMAGE NAME"></div>
-						<div class="owl-item"><img src="files/uploads/fiveguysback5.jpg" alt="SEO IMAGE NAME"></div>
-					</div> <!-- END .owlslider -->  
-				</div>           			
-				<!-- IMAGE SLIDER -->
+
+
+				<div class="horizontalsection  parallax-section" data-parallax-image="files/uploads/prefaceback.jpg" data-speed="0.5">
+					<div class="horizontalinner wrapper align-center text-light">
+						<div class="spacer spacer-small"></div>
+												<h6 class="title-ultraminimal">WE ARE HERE</h6>
+						<p>The world as we know it will not last forever. Our planet, finite in its existence, drifts openly in an immense and unpredictable space. It is where humanity looked up at the sky and imagined that only a place like heaven could grant us entry into what exists beyond the Earth. But we have proven to ourselves before that we are already great. Our species is constantly changing and evolving, progressing and innovating. Despite all of our shortcomings and differences, greatness has never us. That is why we look up. It is out there where humanity writes its history and paves new roads to the stars, the next phase in the evolution of our species. It is time we venture back out, to make the great leap into the vast expanse of the universe, to spread ourselves and all of our knowledge and understanding, among the stars.  
+						</p>
+						<div class="spacer spacer-small"></div>
+					</div>
+				</div> <!-- END .horizontalsection-->
+
+
+		</section>
 
 		<section id="portfolio-single">
-			<div class="section-inner wrapper">
-							
-				<div class="column-section clearfix wrapper-small">
+			<div class="section-inner wrapper-small">
 					<div class="column one-full align-center">
-						<h6 class="title-minimal">The Final Good</h6>
-						<p>Project details will be in here soon. Placeholder text: Distillery cold-pressed Intelligentsia, master cleanse heirloom migas disrupt Bushwick cornhole Neutra forage ugh hoodie. PBR you probably haven't heard of them wolf, bespoke.  
+						<h6 class="title-minimal">Navigation</h6>
+						<p>Leap explores navigation in three dimensions.  
 						</p>
 					</div>
-				</div>
-				
-				
+
 				<div class="spacer spacer-big"></div>
+			</div>
+		</section>
+
+	      	<section id="thinking" class="notoppadding">
+					
+				<div id="about-split" class="split-section clearfix" style="background:#000;">
+
+					
+					<div class="split-right split-half text-light">
+						<div class="split-mini-content">
+							<h6 class="title-minimal" style="margin-bottom: 0px;">XD Thinking</h6>
+							<p>Zeddy started with the goal of making a toy that is accessible to children that are blind, deaf, or both. Enveloping Zeddy in the zombie story came later. <br>
+							<br>
+							Zeddy calls out which extremities to press and in what sequence. The extremities on Zeddy are fixed with vibration motors, lights, and switches. The lights and motors actuate to signal which ones to press and in what order. The speaker inside Zeddy also vocalizes the order. The eyes have lights to signal when one has pressed the incorrect sequence and this is when they light up and the head starts vibrating. When the head is removed Zeddy is reset. 
+							</p>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+						</div> 
+					
+					<!-- <div class="align-center">					
+						<div class="">
+							<a href="https://www.dropbox.com/s/o9jkivvgc7qoxpo/AIA-Team2-DraftHouse-App-v3-Annotatedsml.pdf?dl=0" class="sr-button" target="_blank">Download Thinking PDF</a>
+						</div>
+					</div> -->
 				
+				</div> <!-- END .split-section -->
+
+
+					<div class="split-left split-half text-light">
+						
+					<div class="split-bg videobg-section"
+					   data-videofile="files/uploads/leapnav" 
+					   data-videowidth="1080"
+					   data-videoheight="608"
+					   data-videoposter="files/uploads/aldopadilla.png"
+					   data-videoparallax="false"
+					   data-videooverlaycolor="#000000"
+					   data-videooverlayopacity="0.0"
+						data-sound="false"></div>
+				</div> 
+
+
+					</div> <!-- END .split-right -->
+
+             			
+			</section>	
+			
+			
+
+
+
+				<!-- MASONRY PORTFOLIO -->
+		<section id="masonry">
+
+				
+				<div id="portfolio-grid-masonry" class="masonry portfolio-entries clearfix" data-maxitemwidth="400">
+					
+					<div class="portfolio-masonry-entry masonry-item branding">
+						<div class="entry-thumb portfolio-thumb">
+							<div class="imgoverlay name-hidden">
+								<img src="files/uploads/globalfriction.gif" alt="Alt Landscape View">
+				                   <!-- <div class=overlaycaption>
+				                        <h5 class="overlay-name title-minimal">Alt Landscape View</h5>
+				                    </div> -->
+							</div>
+					   </div>
+					</div> <!-- END .portfolio-masonry-entry -->
+
+					<div class="portfolio-masonry-entry masonry-item branding">
+						<div class="entry-thumb portfolio-thumb">
+							<div class="imgoverlay name-hidden">
+								<img src="files/uploads/spaceapathy.gif" alt="Team Tracking/Training">
+				                   <!-- <div class=overlaycaption>
+				                        <h5 class="overlay-name title-minimal">Alt Landscape View</h5>
+				                    </div> -->
+							</div>
+					   </div>
+					</div> <!-- END .portfolio-masonry-entry -->
+
+					<div class="portfolio-masonry-entry masonry-item branding">
+						<div class="entry-thumb portfolio-thumb">
+							<div class="imgoverlay name-hidden">
+								<img src="files/uploads/finiteworld.jpg" alt="Event Tracking">
+				                   <!-- <div class=overlaycaption>
+				                        <h5 class="overlay-name title-minimal">Alt Landscape View</h5>
+				                    </div> -->
+							</div>
+					   </div>
+					</div> <!-- END .portfolio-masonry-entry -->
+					
+					<div class="portfolio-masonry-entry masonry-item branding">
+						<div class="entry-thumb portfolio-thumb">
+							<div class="imgoverlay name-hidden">
+								<img src="files/uploads/departure.jpg" alt="Outdoor Installation Demo">
+				                   <!-- <div class=overlaycaption>
+				                        <h5 class="overlay-name title-minimal">Alt Landscape View</h5>
+				                    </div> -->
+							</div>
+					   </div>
+					</div> <!-- END .portfolio-masonry-entry -->
+					
+
+					
+				</div> <!-- END #portfolio-grid -->
+		</section> <!-- MASONRY PORTFOLIO -->
+
+		<section id="portfolio-single">
+			<div class="section-inner wrapper-small">
+					<div class="column one-full align-center">
+						<h6 class="title-minimal">Chapters</h6>
+						<p>Unique experiences per chapter.  
+						</p>
+					</div>
+
+				<div class="spacer spacer-big"></div>
+			</div>
+		</section>
+
+
+				<!-- IMAGE SLIDER -->
+	      	<section id="thinking" class="notoppadding">
+					
+				<div id="about-split" class="split-section clearfix" style="background:#000;">
+
+					
+					<div class="split-left split-half text-light">
+						<div class="split-mini-content">
+							<h6 class="title-minimal" style="margin-bottom: -15px;">XD Thinking</h6>
+							<p>Zeddy started with the goal of making a toy that is accessible to children that are blind, deaf, or both. Enveloping Zeddy in the zombie story came later. <br>
+							<br>
+							Zeddy calls out which extremities to press and in what sequence. The extremities on Zeddy are fixed with vibration motors, lights, and switches. The lights and motors actuate to signal which ones to press and in what order. The speaker inside Zeddy also vocalizes the order. The eyes have lights to signal when one has pressed the incorrect sequence and this is when they light up and the head starts vibrating. When the head is removed Zeddy is reset. 
+							</p>
+						</div> 
+					
+					<!-- <div class="align-center">					
+						<div class="">
+							<a href="https://www.dropbox.com/s/o9jkivvgc7qoxpo/AIA-Team2-DraftHouse-App-v3-Annotatedsml.pdf?dl=0" class="sr-button" target="_blank">Download Thinking PDF</a>
+						</div>
+					</div> -->
+				
+				</div> <!-- END .split-section -->
+
+
+					<div class="split-left split-half text-light">
+						
+							<div class="owlslider">
+								<div class="owl-item"><img src="files/uploads/departure.gif" alt="SEO IMAGE NAME"></div>
+							</div> <!-- END .owlslider -->
+
+
+					</div> <!-- END .split-right -->
+
+             			
+			</section>	
+				<!-- IMAGE SLIDER -->
+
+
+
+				<!-- MASONRY PORTFOLIO -->
+		<section id="masonry">
+
+				
+				<div id="portfolio-grid-masonry" class="masonry portfolio-entries clearfix" data-maxitemwidth="800">
+					
+					<div class="portfolio-masonry-entry masonry-item branding">
+						<div class="entry-thumb portfolio-thumb">
+							<div class="imgoverlay name-hidden">
+								<img src="files/uploads/secondhome.gif" alt="Alt Landscape View">
+				                   <!-- <div class=overlaycaption>
+				                        <h5 class="overlay-name title-minimal">Alt Landscape View</h5>
+				                    </div> -->
+							</div>
+					   </div>
+					</div> <!-- END .portfolio-masonry-entry -->
+
+					<div class="portfolio-masonry-entry masonry-item branding">
+						<div class="entry-thumb portfolio-thumb">
+							<div class="imgoverlay name-hidden">
+								<img src="files/uploads/ethicssq.jpg" alt="Team Tracking/Training">
+				                   <!-- <div class=overlaycaption>
+				                        <h5 class="overlay-name title-minimal">Alt Landscape View</h5>
+				                    </div> -->
+							</div>
+					   </div>
+					</div> <!-- END .portfolio-masonry-entry -->
+
+				
+					
+				</div> <!-- END #portfolio-grid -->
+		</section> <!-- MASONRY PORTFOLIO -->
+
+				<div class="spacer spacer-big"></div>
+
+			<div class="wrapper">
+				
+					<div class="column-section clearfix">
+						<div class="column one-half">
+						<h6 class="title-minimal">The Role</h6>
+						<p>The team and I designed and tested the experience.   
+						</p>
+						</div>
+						
+						<div class="column one-half last-col">
+						<h6 class="title-minimal">Tools</h6>
+
+						<!-- Tools -->
+						<div class="skill">
+							<p class="alttitle skill-name" style=""><strong>Pen & Paper</strong></p>
+							<div class="skill-bar"><div class="skill-active" style="" data-perc="90">
+							<span class="tooltip">85%</span></div></div>
+						</div> 
+						<div class="skill">
+							<p class="alttitle skill-name" style=""><strong>3D Printer + Model</strong></p>
+							<div class="skill-bar"><div class="skill-active" style="" data-perc="10">
+							<span class="tooltip">10%</span></div></div>
+						</div>
+						<div class="skill">
+							<p class="alttitle skill-name" style=""><strong>DSLR</strong></p>
+							<div class="skill-bar"><div class="skill-active" style="" data-perc="5">
+							<span class="tooltip">5%</span></div></div>
+						</div>
+
+						</div> 
+					</div> <!-- END Tools -->
+
+			</div>
+
+
+
+
+				<!-- IMAGE SLIDER -->
+
 				<!-- Single Pagination -->
 				<ul class="single-pagination fixed-pagination">
-					<li class="next"><a href="vis.html" class="transition" data-name="Vis">
+					<li class="next"><a href="vis.html" class="transition" data-name="VIS">
 					<i class="pagination-icon"></i> Next Project <i class="pagination-icon"></i></a></li>
 					<li class="prev"><a href="aia.html" class="transition" data-name="AIA">
 					<i class="pagination-icon"></i> Previous Project <i class="pagination-icon"></i></a></li>
 				</ul>
-				
-			</div>
-		</section>
-	 	<!-- PORTFOLIO SINGLE SECTION -->
-		
-		<!-- MASONRY PORTFOLIO -->
-		<section id="masonry">
 
-				<div class="spacer spacer-small"></div>
-				
-				<div id="portfolio-grid-masonry" class="masonry portfolio-entries clearfix" data-maxitemwidth="600">
-			
-					<div class="portfolio-masonry-entry masonry-item branding">
-						<div class="entry-thumb portfolio-thumb">
-							<div class="">
-								<img src="files/uploads/800x600.jpg" alt="SEO IMAGE NAME">
-							</div>
-					   </div>
-					</div> <!-- END .portfolio-masonry-entry -->
 
-					
-					<div class="portfolio-masonry-entry masonry-item branding">
-						<div class="entry-thumb portfolio-thumb">
-							<div class="">
-								<img src="files/uploads/800x600.jpg" alt="SEO IMAGE NAME">
-							</div>
-					   </div>
-					</div> <!-- END .portfolio-masonry-entry -->
-					
-					<div class="portfolio-masonry-entry masonry-item branding">
-						<div class="entry-thumb portfolio-thumb">
-							<div class="">
-								<img src="files/uploads/800x1200.jpg" alt="SEO IMAGE NAME">
-							</div>
-					   </div>
-					</div> <!-- END .portfolio-masonry-entry -->
-					
-					<div class="portfolio-masonry-entry masonry-item branding">
-						<div class="entry-thumb portfolio-thumb">
-							<div class="">
-								<img src="files/uploads/800x600.jpg" alt="SEO IMAGE NAME">
-							</div>
-					   </div>
-					</div> <!-- END .portfolio-masonry-entry -->
-					
-					<div class="portfolio-masonry-entry masonry-item branding">
-						<div class="entry-thumb portfolio-thumb">
-							<div class="">
-								<img src="files/uploads/800x1200.jpg" alt="SEO IMAGE NAME">
-							</div>
-					   </div>
-					</div> <!-- END .portfolio-masonry-entry -->
-					
-					<div class="portfolio-masonry-entry masonry-item branding">
-						<div class="entry-thumb portfolio-thumb">
-							<div class="">
-								<img src="files/uploads/800x600.jpg" alt="SEO IMAGE NAME">
-							</div>
-					   </div>
-					</div> <!-- END .portfolio-masonry-entry -->
-					
-					<div class="portfolio-masonry-entry masonry-item branding">
-						<div class="entry-thumb portfolio-thumb">
-							<div class="">
-								<img src="files/uploads/800x600.jpg" alt="SEO IMAGE NAME">
-							</div>
-					   </div>
-					</div> <!-- END .portfolio-masonry-entry -->
-					
-				</div> <!-- END #portfolio-grid -->
-				
-		</section>
-		<!-- MASONRY PORTFOLIO -->
+				<div class="spacer spacer-medium"></div>
+
+
+			<section>
+				<div class="column-section clearfix wrapper-small">
+					<div class="column one-full align-center">
+						 <ul style="list-style: none;margin-left: 15px;">
+						 	<li>XD - Aldo </li>
+							<li><a href="http://www.richardbeahm.com/" target="blank">CW - Richard Beahm </li>
+							<li><a href="http://www.robstone.io/" target="blank">AD - Rob Stone </li>
+						</ul>
+					</div>
+				</div>
+			</section>
 
 
 		<!-- FOOTER -->  
@@ -327,7 +525,6 @@
 <script type="text/javascript" src="files/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
 <script type='text/javascript' src='files/js/jquery.scroll.min.js'></script>
 <script type='text/javascript' src='files/js/jquery.owl.carousel.min.js'></script>
-
 
 <script type='text/javascript' src='files/js/jquery.visible.min.js'></script>
 <script type='text/javascript' src='files/js/jquery.parallax.min.js'></script>

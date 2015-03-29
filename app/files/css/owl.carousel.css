@@ -129,7 +129,7 @@
 /* bullets / pagination */
 .owl-controls .owl-page{
 	display: inline-block;
-	zoom: 1;
+	zoom: 2;
 	*display: inline;/*IE7 life-saver */
 }
 .owl-controls .owl-page span{

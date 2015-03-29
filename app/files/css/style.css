@@ -2613,3 +2613,26 @@ font-size: 37px;
 line-height: 45px;
 }
 
+.myIframe {
+	text-align: center;
+	width: 90%;
+	margin: 0 auto;
+	position: relative;
+	padding-bottom: 165.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: auto; 
+	-webkit-overflow-scrolling:touch; //<<--- THIS IS THE KEY 
+	border: solid black 1px;
+} 
+.myIframe iframe {
+	position: absolute;
+	top: 0;
+	left: 3%;
+	width: 94%;
+	height: 100%;
+	border: 1px solid black;
+}
+
+
+

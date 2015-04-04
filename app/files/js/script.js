@@ -575,6 +575,7 @@ var textarray = [
  "LCD Soundsystem", 
  "GIFS", 
  "Street Art", 
+ "Ultimate Frisbee", 
  "SCUBA"   
 ];
 

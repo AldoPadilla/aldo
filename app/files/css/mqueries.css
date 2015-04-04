@@ -295,7 +295,7 @@ h6 { font-size: 14px; line-height: 20px; }
 
 .single-pagination, .entries-pagination { overflow: hidden; padding: 60px 0; }	
 .single-pagination li, .entries-pagination li { float: none; width: 98%; overflow: hidden; position: inherit; bottom: inherit; z-index: inherit; transition: none; -webkit-transition: none; -moz-transition: none; -o-transition: none; -ms-transition: none; opacity:1;filter: alpha(opacity=100); -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; }
-.single-pagination li.next, .single-pagination li.prev { left: inherit; margin-bottom: 0; right: inherit;  -webkit-transform: none; -moz-transform: none; -ms-transform: none; -o-transform: none; transform: none; }
+.single-pagination li.next, .single-pagination li.prev { left: inherit; margin-bottom: 0; margin-left: 8px; right: inherit;  -webkit-transform: none; -moz-transform: none; -ms-transform: none; -o-transform: none; transform: none; }
 .single-pagination li a, .entries-pagination li a { padding: 0; }
 .single-pagination li a:after { padding: 0; }
 .single-pagination li.next a { text-align: right !important; }

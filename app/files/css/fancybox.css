@@ -127,7 +127,7 @@ a.fancybox-close, a.fancybox-prev span, a.fancybox-next span {
 
 a.fancybox-close {
  	position: absolute;
-	top: -35px;
+	bottom: 35px;
 	left: 50%; margin-left: -15px;
 	width: 30px;
 	height: 30px;
@@ -135,7 +135,7 @@ a.fancybox-close {
  	z-index: 11040;
 }
 a.fancybox-close:before {	content: "\e680";}
-a.fancybox-close:hover { padding-bottom: 5px; top: -40px; }
+a.fancybox-close:hover { padding-bottom: 5px; bottom: 40px; }
 
 
 a.fancybox-nav {

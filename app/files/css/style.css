@@ -3,27 +3,6 @@
 
 
 
-
-
-
-
-
-		! ! !    R E A D   T H I S    ! ! ! 
-		-----------------
-		
-		It's recomended to use/create a custom css file (or place them at the end of this file) 
-		to do you customizations in order to easily update the main css files without loosing your changes
-		
-		
-		> > Please take also a look at the documentation file.
-		
-		
-		
-		
-						 
-
-
-
 /*-----------------------------------------------------------------------------------
 
 	0.	RESET & CLEARFIX
@@ -707,7 +686,7 @@ footer #backtotop {
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 0.2em;
-	color: #0d0d0d;
+	color: #daa520;
 	width: 56px;
 	height: 20px;
 	line-height: 20px;
@@ -936,6 +915,7 @@ nav#main-nav .nav-inner ul li ul li a {
   width: 18px;
   height: 2px;
   background-color: #ffffff;
+    box-shadow: 2px 2px 5px #888888;
 	}
 	.sticky-header .open-nav span, .open-nav.nav-dark span { background-color: #0d0d0d; }
 
@@ -958,6 +938,7 @@ nav#main-nav .nav-inner ul li ul li a {
     -moz-transition: -moz-transform .3s, background .3s;
     -o-transition: -o-transform .3s, background .3s;
     -ms-transition: -ms-transform .3s, background .3s;
+    box-shadow: 2px 2px 5px #888888;
 	}
 	.sticky-header .open-nav span:before, .sticky-header .open-nav span:after, .open-nav.nav-dark span:before, .open-nav.nav-dark span:after { background-color: #0d0d0d; }
 
@@ -1277,7 +1258,7 @@ section { }
 	text-align: center;
 	width: inherit;
 	padding: 0;
-	color:#a9a9a9;
+	color:#DAA520;
 	}
 	
 .fixed-pagination li a .pagination-icon { 
@@ -2651,4 +2632,23 @@ background: url("/files/uploads/bg-icons.png") no-repeat center center;
 margin-bottom: 10px;
 font-size: 20px;
 }
+
+.projectborder{
+	padding-left: 60px;
+	padding-right:60px;
+	padding-bottom: 20px;
+	border-top: solid;
+	border-top-width: 1px;
+	border-top-color: #CCCCCC;
+	text-align: left;
+}
+
+   .mobileShow { display: none;}
+   /* Smartphone Portrait and Landscape */
+   @media only screen
+   and (min-device-width : 320px)
+   and (max-device-width : 1024px){ .mobileShow { display: inline;}}
+
+
+
 

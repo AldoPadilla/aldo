@@ -8,55 +8,85 @@
 
 <url>
   <loc>http://aldopadilla.com/</loc>
-  <lastmod>2015-03-19T17:26:28+00:00</lastmod>
+  <lastmod>2015-04-17T05:51:52+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>http://aldopadilla.com/index.html</loc>
-  <lastmod>2015-03-19T17:26:28+00:00</lastmod>
+  <lastmod>2015-04-17T05:51:52+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://aldopadilla.com/resume.html</loc>
-  <lastmod>2015-03-19T17:37:07+00:00</lastmod>
+  <lastmod>2015-04-17T05:51:47+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://aldopadilla.com/404.html</loc>
-  <lastmod>2015-03-19T03:53:51+00:00</lastmod>
+  <lastmod>2015-04-17T05:51:47+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://aldopadilla.com/aia.html</loc>
-  <lastmod>2015-03-19T01:59:43+00:00</lastmod>
+  <lastmod>2015-04-18T03:06:23+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://aldopadilla.com/glucovation.html</loc>
-  <lastmod>2015-03-19T03:53:50+00:00</lastmod>
+  <loc>http://aldopadilla.com/leap.html</loc>
+  <lastmod>2015-04-17T05:51:48+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://aldopadilla.com/vis.html</loc>
+  <lastmod>2015-04-17T05:51:48+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://aldopadilla.com/mountainhardwear.html</loc>
-  <lastmod>2015-03-19T03:53:48+00:00</lastmod>
+  <lastmod>2015-04-18T00:25:52+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://aldopadilla.com/fiveguys.html</loc>
-  <lastmod>2015-03-19T01:05:07+00:00</lastmod>
+  <lastmod>2015-04-18T00:25:52+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://aldopadilla.com/futurehype.html</loc>
+  <lastmod>2015-04-17T05:51:49+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://aldopadilla.com/dirtie.html</loc>
+  <lastmod>2015-04-18T00:25:52+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://aldopadilla.com/vaforall.html</loc>
+  <lastmod>2015-04-18T03:06:23+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://aldopadilla.com/bfgoodrich.html</loc>
-  <lastmod>2015-03-19T03:53:49+00:00</lastmod>
+  <lastmod>2015-04-18T03:06:24+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://aldopadilla.com/zeddy.html</loc>
+  <lastmod>2015-04-18T00:25:53+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>

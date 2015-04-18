@@ -278,11 +278,11 @@ jQuery(window).load(function($) {
 	------------------------------------------------*/
 	if(jQuery().revolution) {
 		jQuery('.rev-slider').revolution({
-			delay:4250,
+			delay:2150,
 			startheight: 500,
 			startwidth: 1200,
 			hideTimerBar: "on",
-			onHoverStop:"off",
+			onHoverStop:"on",
 			navigationType:"bullet",
 			hideThumbs:0,					// Bullets always visible
 			navigationHAlign:"right",
@@ -305,7 +305,7 @@ jQuery(window).load(function($) {
 		/* for all owlslider classes (single item) */
 		jQuery(".owlslider").owlCarousel({
 			autoPlay : true,
-			stopOnHover : false,
+			stopOnHover : true,
 			navigation: false,
 			navigationText : false,
 			slideSpeed : 900,			// speed for mouseslide/touchslide
@@ -321,7 +321,7 @@ jQuery(window).load(function($) {
 			itemsDesktopSmall:false,
 			itemsTablet: [860,2],
 			itemsMobile: [640,1],
-			autoplay: false,
+			autoplay: true,
 			autoHeight : true,
 			navigationText : false,
 			rewindNav: false

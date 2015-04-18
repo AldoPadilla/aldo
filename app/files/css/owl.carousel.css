@@ -134,31 +134,32 @@
 }
 .owl-controls .owl-page span{
 	width:8px;	height:8px; 
+	background: #daa520;
 	display: block;   
 	float: none; 
 	margin: 0 8px;
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
 	border-radius: 20px;
-	border: 1px solid transparent;
+/* border: 0px solid transparent; */
 }
 
 .owl-controls .owl-page span:before, .text-light .owl-controls .owl-page span:before {
 	content: '';
-  	width: 4px;
-  	height: 4px;
+  	width: 8px;
+  	height: 8px;
   	display: block;
-	background: #daa520;
+	background: #fafad2;
 	border-radius: 12px;
 	-moz-border-radius:12px; 
 	-khtml-border-radius:12px; 
 	-webkit-border-radius:12px;
 	position: relative;
-	top: 2px;
-	left: 2px;
+	/* top: 2px; */
+	/* left: 2px; */
 	}
 	.owlnavdark .owl-controls .owl-page span:before, .owlcarousel .owl-controls .owl-page span:before { background: #0d0d0d; }
 
-.owl-theme .owl-controls .owl-page.active span, .text-light .owl-controls .owl-page.active span { border: 1px solid #daa520; }
-	.owlnavdark .owl-controls .owl-page.active span, .owlcarousel .owl-controls .owl-page.active span { border: 1px solid #daa520; }
+.owl-theme .owl-controls .owl-page.active span, .text-light .owl-controls .owl-page.active span { border: 0px solid #daa520; }
+	.owlnavdark .owl-controls .owl-page.active span, .owlcarousel .owl-controls .owl-page.active span { border: 0px solid #daa520; }
 .owl-theme .owl-controls .owl-page.active span:before { display: none; }

@@ -537,7 +537,7 @@ function splitSection() {
 
 var textarray = [
  "Skateboarding",
- "Snowbarding",
+ "Snowboarding",
  "Bikes",
  "Photography",
  "Lettering",
@@ -576,6 +576,7 @@ var textarray = [
  "GIFS", 
  "Street Art", 
  "Ultimate Frisbee", 
+ "Mikaila", 
  "SCUBA"   
 ];
 
